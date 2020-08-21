@@ -72,10 +72,10 @@
 }
 
 .teacher-item footer a:hover {
-  background: var(--color-secundary-dark);
+  background: var(--color-secondary-dark);
 }
 
-.teacher-item footer button {
+.teacher-item footer a {
   width: 20rem;
   height: 5.6rem;
   background: var(--color-secondary);
@@ -88,6 +88,7 @@
   align-items: center;
   justify-content: space-evenly;
   transition: 0.2s;
+  text-decoration: none;
 }
 
 @media (min-width: 700px) {

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, FormEvent } from 'react';
 import { useHistory } from 'react-router-dom';
 import PageHeader from '../../components/PageHeader';
 import Input from '../../components/Input';
@@ -51,7 +51,7 @@ function TeacherForm() {
     setScheduleItems(updatedSchedule);
   }
 
-  async function handleCreateClass(e: any) {
+  async function handleCreateClass(e: FormEvent) {
     e.preventDefault();
 
     try {
